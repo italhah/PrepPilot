@@ -41,7 +41,7 @@ export default function SignupPage() {
     if (error) {
       toast.error(error);
     } else {
-      toast.success('Account created! Welcome to IntervueAI.');
+      toast.success('Account created! Welcome to PrepPilot.');
       router.push('/dashboard');
     }
   };

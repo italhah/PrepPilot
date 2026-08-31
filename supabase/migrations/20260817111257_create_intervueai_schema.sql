@@ -1,7 +1,7 @@
 /*
-# IntervueAI Schema - Initial Tables
+# PrepPilot Schema - Initial Tables
 
-Creates the core tables for the IntervueAI interview practice SaaS:
+Creates the core tables for the PrepPilot interview practice SaaS:
 profiles, interviews, interview_questions, interview_answers, study_plans, study_plan_items.
 
 1. New Tables

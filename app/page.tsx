@@ -117,7 +117,7 @@ export default function LandingPage() {
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Everything you need to ace your next interview</h2>
             <p className="mt-4 text-muted-foreground">
-              From your first practice round to your final preparation, IntervueAI adapts to your level and helps you improve.
+              From your first practice round to your final preparation, PrepPilot adapts to your level and helps you improve.
             </p>
           </div>
           <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

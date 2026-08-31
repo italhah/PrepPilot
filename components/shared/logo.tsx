@@ -11,32 +11,26 @@ export function Logo({ className, showText = true, size = 'md' }: { className?: 
     <span className={cn('flex items-center gap-2', className)}>
       <span className={cn('flex items-center justify-center rounded-xl bg-primary shadow-sm', dims.box)}>
         <svg viewBox="0 0 24 24" fill="none" className={cn('text-primary-foreground', dims.icon)} xmlns="http://www.w3.org/2000/svg">
-          {/* Chat bubble — represents the interview conversation */}
+          {/* Paper airplane/pilot — represents guidance and preparation */}
           <path
-            d="M4 5.5a2.5 2.5 0 0 1 2.5-2.5h11A2.5 2.5 0 0 1 20 5.5v7a2.5 2.5 0 0 1-2.5 2.5H9l-4 3.5v-3.5H6.5A2.5 2.5 0 0 1 4 12.5v-7z"
+            d="M3 11l18-4-18 4 7 4 11-8-11 8 7 4-7-4-7 4z"
             fill="currentColor"
-            fillOpacity="0.18"
+            fillOpacity="0.2"
             stroke="currentColor"
             strokeWidth="1.5"
+            strokeLinecap="round"
             strokeLinejoin="round"
           />
-          {/* AI sparkle — represents the AI interviewer */}
-          <path
-            d="M12 6.5c.3 1.2.8 1.7 2 2-1.2.3-1.7.8-2 2-.3-1.2-.8-1.7-2-2 1.2-.3 1.7-.8 2-2z"
-            fill="currentColor"
-          />
-          {/* Small sparkle accent */}
-          <path
-            d="M15.5 10.5c.15.6.4.85 1 1-.6.15-.85.4-1 1-.15-.6-.4-.85-1-1 .6-.15.85-.4 1-1z"
-            fill="currentColor"
-            fillOpacity="0.7"
-          />
-          {/* Chat dots — represents Q&A dialogue */}
-          <circle cx="8" cy="9.5" r="0.8" fill="currentColor" />
-          <circle cx="11" cy="9.5" r="0.8" fill="currentColor" fillOpacity="0.5" />
+          {/* Target/crosshair — represents precision and goal achievement */}
+          <circle cx="12" cy="12" r="2" fill="currentColor" />
+          <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="1" fill="none" opacity="0.5" />
+          {/* Progress dots — represents improvement tracking */}
+          <circle cx="6" cy="18" r="1" fill="currentColor" opacity="0.7" />
+          <circle cx="9" cy="18" r="1" fill="currentColor" opacity="0.5" />
+          <circle cx="12" cy="18" r="1" fill="currentColor" opacity="0.3" />
         </svg>
       </span>
-      {showText && <span className={cn('font-bold tracking-tight', dims.text)}>IntervueAI</span>}
+      {showText && <span className={cn('font-bold tracking-tight', dims.text)}>PrepPilot</span>}
     </span>
   );
 }

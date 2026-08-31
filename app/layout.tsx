@@ -8,7 +8,7 @@ import { Toaster } from '@/components/ui/sonner';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'IntervueAI — Practice interviews. Improve every answer.',
+  title: 'PrepPilot — Practice interviews. Improve every answer.',
   description:
     'Practice realistic technical interviews with an AI interviewer and receive personalized feedback based on your actual performance.',
 };
